@@ -74,10 +74,6 @@ title.innerHTML = `${titleText} ${monthArray[monthTomorrow]} ${dayTomorrow}, ${y
 // let progress = document.querySelector('.progress-bar-success');
 // progress.style.width = percent + '%';
 
-
-
-
-
 let min = 75;
 let max = 92;
 let percent = Math.floor(Math.random() * (max - min + 1) + min);
